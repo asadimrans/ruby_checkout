@@ -1,0 +1,7 @@
+{
+  "rules": [
+    { "id": 1, "priority": 1, "operator": "gte", "range": 3, "discount": "0.5", "conversion": "number", "applicable_products_identifier": ["SR1"] },
+    { "id": 2, "priority": 2, "operator": "gte", "range": 3, "discount": "34", "conversion": "percentage", "applicable_products_identifier": ["CF1"] },
+    { "id": 2, "priority": 3, "operator": "bogo", "range": 2, "discount": "50", "conversion": "percentage", "applicable_products_identifier": ["GR1"] }
+  ]
+}
